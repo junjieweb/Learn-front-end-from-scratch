@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>file控件</title>
+    </head>
+    <body>
+        <!--file控件，文件上传专用-->
+        <input type="file">
+
+        <form action="http://localhost:8080/oa/saee">
+            <!--隐藏域：网页上看不到，但是表单提交的时候会自动提交给服务器-->
+            <input type="hidden" name="useid" value="111">
+
+            用户代码<input type="text" name="usecode">
+            
+            <input type="submit" value="提交">
+        </form>
+
+    </body>
+</html>
