@@ -19,17 +19,32 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: "/html",
     name: "html",
-    component: () => import("../views/HTML.vue"),
+    component: () => import("../views/HTMLView.vue"),
   },
   {
     path: "/css",
     name: "css",
-    component: () => import("../views/CSS.vue"),
+    component: () => import("../views/CSSView.vue"),
   },
   {
     path: "/javascript",
     name: "javascript",
-    component: () => import("../views/JavaScript.vue"),
+    component: () => import("../views/JavaScriptView.vue"),
+  },
+  {
+    path: "/vue",
+    name: "vue",
+    component: () => import("../views/VueView.vue"),
+  },
+  {
+    path: "/react",
+    name: "react",
+    component: () => import("../views/ReactView.vue"),
+  },
+  {
+    path: "/typescript",
+    name: "typescript",
+    component: () => import("../views/TypeScriptView.vue"),
   },
 ];
 

@@ -1,4 +1,4 @@
-# learn-frontend-from-scratch
+# freeFrontendCamp
 
 ## Project setup
 

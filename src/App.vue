@@ -26,14 +26,12 @@ export default defineComponent({
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  max-width: 80%;
   margin: 0 auto;
 }
 a {
   text-decoration: none;
   margin: 0 20px;
   color: #fff;
-  font-size: 30px;
   &.router-link-exact-active {
     color: #42b983;
   }
