@@ -25,14 +25,13 @@ nav {
   flex-flow: row wrap;
   justify-content: center;
   background: #2c3e50;
-  color: #fff;
   font-size: 2rem;
   position: sticky;
   width: 100%;
   top: 0;
   a {
     text-decoration: none;
-    margin: 0 20px;
+    margin: 0 1rem;
     padding: 0.1rem 0.5rem;
     color: #fff;
     &.router-link-exact-active {
