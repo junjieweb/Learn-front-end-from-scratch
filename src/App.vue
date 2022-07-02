@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <header-nav></header-nav>
+  <header-nav></header-nav>
+  <div class="container">
     <router-view />
   </div>
 </template>
@@ -20,6 +20,7 @@ export default defineComponent({
   padding: 0;
   margin: 0;
 }
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -27,13 +28,9 @@ export default defineComponent({
   text-align: center;
   color: #2c3e50;
   margin: 0 auto;
+  height: 2000px;
 }
-a {
-  text-decoration: none;
-  margin: 0 20px;
-  color: #fff;
-  &.router-link-exact-active {
-    color: #42b983;
-  }
+.container {
+  //margin-top: 2.5rem;
 }
 </style>
