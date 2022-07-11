@@ -7,6 +7,7 @@
     <router-link to="/vue">Vue</router-link>
     <router-link to="/react">React</router-link>
     <router-link to="/typescript">TypeScript</router-link>
+    <router-link to="/node">NodeJS</router-link>
     <router-link to="/about">About</router-link>
   </nav>
 </template>
