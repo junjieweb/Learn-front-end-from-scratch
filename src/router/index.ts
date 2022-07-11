@@ -46,6 +46,11 @@ const routes: Array<RouteRecordRaw> = [
     name: "typescript",
     component: () => import("../views/TypeScriptView.vue"),
   },
+  {
+    path: "/node",
+    name: "node",
+    component: () => import("../views/NodeView.vue"),
+  },
 ];
 
 const router = createRouter({
