@@ -1,8 +1,6 @@
 <template>
-  <header-nav></header-nav>
-  <div class="container">
-    <router-view />
-  </div>
+  <header-nav />
+  <router-view />
 </template>
 
 <script>
@@ -29,8 +27,5 @@ export default defineComponent({
   color: #2c3e50;
   margin: 0 auto;
   height: 2000px;
-}
-.container {
-  //margin-top: 2.5rem;
 }
 </style>
